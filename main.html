@@ -1,15 +1,35 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <title>Accessible Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <form>
+    <label for="name">First name:</label><br>
+    <input type="text" id="name" placeholder="Name"><br>
+    <label for="phone">Last name:</label><br>
+    <input type="text" id="phone" name="lname" placeholder="Phone Number">
+    <br>
+    <label for="address">First name:</label><br>
+    <input type="text" id="address" placeholder="Address">
+    <br>
+    <label for="checkbox">Have you ever lived with a Dog before?</label>
+    <input type="checkbox" id="checkbox">
+    <br>
+    <label for="multiSelect">which is the best dog breed you choose:</label>
+    <select name="dog" id="multiSelect" type="select">
+      <option value="kalu">Kalu</option>
+      <option value="raaju">raaju</option>
+      <option value="desibreed">desibreed</option>
+      <option value="tomi">tomi</option>
+    </select>
+    <br>
+    <button type="button" id="submit" value="Submit">Submit</button>
+  </form>
 
 </body>
 
